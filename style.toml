@@ -34,8 +34,6 @@ warn_unused_ignores = true
 
 [nitpick.files.present]
 "pyproject.toml" = "Install poetry and run 'poetry init' to create it"
-
-[nitpick.files.present]
 ".pre-commit-config.yaml" = "Create the file with the contents below, then run 'pre-commit install'"
 
 [[".pre-commit-config.yaml".repos]]
