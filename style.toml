@@ -116,3 +116,11 @@ yaml = """
         stages: [commit-msg]
         additional_dependencies: ['@commitlint/config-conventional']
 """
+
+[[".pre-commit-config.yaml".repos]]
+yaml = """
+  - repo: https://github.com/andreoliwa/nitpick
+    rev: v0.23.1
+    hooks:
+      - id: nitpick
+"""
