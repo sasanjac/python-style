@@ -24,7 +24,7 @@ multi_line_output = 3
 skip = ".tox,build"
 force_single_line = true
 
-["setup.cfg".imypy]
+["setup.cfg".mypy]
 follow_imports = "skip"
 ignore_missing_imports = false
 strict_optional = true
